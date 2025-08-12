@@ -39,7 +39,7 @@ _custom_css = {
         ''',
 
     u'maroon': u'''
-        @layoutLinkColor: #810606;
+        @layoutLinkColor: #52a3f2;
         @footerTextColor: mix(#FFF, @layoutLinkColor, 60%);
         @footerLinkColor: @footerTextColor;
         @mastheadBackgroundColor: @layoutLinkColor;
