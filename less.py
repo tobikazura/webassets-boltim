@@ -46,7 +46,6 @@ _custom_css = {
         @btnPrimaryBackground: lighten(@layoutLinkColor, 10%);
         @btnPrimaryBackgroundHighlight: @layoutLinkColor;
         ''',
-}
 
     u'demokrat': u'''
         @layoutLinkColor: #52a3f2;
