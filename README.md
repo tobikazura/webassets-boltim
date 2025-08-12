@@ -8,3 +8,5 @@ sudo docker cp layout1.html ckan:/srv/app/src/ckan/ckan/templates/home/
 
 
 for featured section: ckan:/srv/app/src/ckan/ckan/templates/home/snippets/promoted.html
+
+for less py : sudo docker cp less.py ckan:/srv/app/src/ckan/ckan/cli/
