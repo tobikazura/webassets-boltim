@@ -30,27 +30,49 @@
           {% snippet 'home/snippets/search.html' %}
         {% endblock %}
       </div>
-      <!-- 3 Card Menu -->
-      <div class="row text-center">
-        <div class="col-md-4 mb-3">
-          <div class="card p-3">
-            <h5><a href="/dataset/">📂 Jelajahi Dataset</a></h5>
-            <p>Akses kumpulan data publik untuk berbagai keperluan.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card p-3">
-            <h5><a href="#">📊 Visualisasi</a></h5>
-            <p>Pahami data secara visual dan interaktif.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card p-3">
-            <h5><a href="#">🔗 API Akses</a></h5>
-            <p>Integrasi data ke dalam aplikasi Anda melalui API.</p>
-          </div>
-        </div>
-      </div>
+      
+      <!-- 3 Card Menu Modern -->
+<div class="row g-4 text-center">
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+      <div class="display-4 mb-3">📂</div>
+      <h5 class="fw-bold mb-2">
+        <a href="/dataset/" class="stretched-link text-decoration-none text-dark">Jelajahi Dataset</a>
+      </h5>
+      <p class="text-muted">Akses kumpulan data publik untuk berbagai keperluan.</p>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+      <div class="display-4 mb-3">📊</div>
+      <h5 class="fw-bold mb-2">
+        <a href="#" class="stretched-link text-decoration-none text-dark">Visualisasi</a>
+      </h5>
+      <p class="text-muted">Pahami data secara visual dan interaktif.</p>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+      <div class="display-4 mb-3">🔗</div>
+      <h5 class="fw-bold mb-2">
+        <a href="#" class="stretched-link text-decoration-none text-dark">API Akses</a>
+      </h5>
+      <p class="text-muted">Integrasi data ke dalam aplikasi Anda melalui API.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .hover-card {
+    transition: all 0.3s ease;
+  }
+  .hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+</style>
 
     </div>
   </div>
