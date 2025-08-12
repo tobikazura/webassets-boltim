@@ -1,0 +1,57 @@
+<div role="main">
+  <div class="main hero text-center">
+    <div class="container">
+
+      <!-- Logo -->
+      <div class="logo mb-3">
+        <img src="/base/images/logopemda.png" alt="Logo Pemda" style="width:25%; height:auto;">
+      </div>
+
+      <!-- Judul -->
+      <h1 class="mb-2">Selamat Datang di Satu Data ORAS</h1>
+      <p class="lead mb-4">
+        Temukan, akses, dan gunakan data publik secara mudah dan terbuka.
+      </p>
+
+      <!-- Foto Bupati & Wakil -->
+<div class="row align-items-center mb-5">
+  <div class="col-md-6 text-center">
+    <img src="/base/images/bupati.png" alt="Bupati" class="mb-2" style="width:65%; height:auto;">
+  </div>
+
+  <div class="col-md-6 text-center">
+    <img src="/base/images/wakilbupati.png" alt="Wakil Bupati" class="mb-2" style="width:65%; height:auto;">
+  </div>
+</div>
+
+      <!-- Search -->
+      <div class="search-bar mb-5">
+        {% block search %}
+          {% snippet 'home/snippets/search.html' %}
+        {% endblock %}
+      </div>
+      <!-- 3 Card Menu -->
+      <div class="row text-center">
+        <div class="col-md-4 mb-3">
+          <div class="card p-3">
+            <h5><a href="/dataset/">📂 Jelajahi Dataset</a></h5>
+            <p>Akses kumpulan data publik untuk berbagai keperluan.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card p-3">
+            <h5><a href="#">📊 Visualisasi</a></h5>
+            <p>Pahami data secara visual dan interaktif.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card p-3">
+            <h5><a href="#">🔗 API Akses</a></h5>
+            <p>Integrasi data ke dalam aplikasi Anda melalui API.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
